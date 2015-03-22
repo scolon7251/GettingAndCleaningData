@@ -21,3 +21,6 @@ After reading in the "test" and "training" set files (with "read.table"), the sc
 	-I first put all of the names within "features.txt" file into one object; I then  use the "colnames" function to rename all of the variables.   
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject
 	-Using functions from the "dplyr" package, I first perform a "group_by" on the "subject" and "activity" variables.  Next, I apply a "summarise_each" passing in the mean function on the resulting data set.  
+
+
+For descriptions of the variables and the method of data collection, please consult the "Codebook"
