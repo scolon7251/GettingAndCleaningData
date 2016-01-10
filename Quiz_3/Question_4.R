@@ -1,5 +1,9 @@
 #Question 4
 
+#############################################################################################
+# What is the average GDP ranking for the "High income: OECD" and "High income: nonOECD" group?
+#############################################################################################
+
 #GDP Data--download CSV and put into object gdp_data
 url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2FGDP.csv" 
 f <- file.path(getwd(), "GDP.csv")
