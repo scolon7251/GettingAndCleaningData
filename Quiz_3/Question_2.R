@@ -1,4 +1,13 @@
-##Question 2, use 'jpeg package'
+##Question 2
+
+#############################################################################################
+# Using the jpeg package read in the following picture of your instructor into R 
+# 
+# https://d396qusza40orc.cloudfront.net/getdata%2Fjeff.jpg 
+# 
+# Use the parameter native=TRUE. What are the 30th and 80th quantiles of the resulting data?
+#############################################################################################
+
 install.packages("jpeg")
 require("jpeg")
 
